@@ -470,3 +470,10 @@ console.log("str.charAt(2) is:" + str.charAt(2));
 console.log("str.charAt(3) is:" + str.charAt(3)); 
 console.log("str.charAt(4) is:" + str.charAt(4)); 
 console.log("str.charAt(5) is:" + str.charAt(5));
+
+
+const printText = "The quick brown fox jumps";
+const printSplit = printText.split(" ")
+console.log(printSplit);
+//output:[ 'The', 'quick', 'brown', 'fox', 'jumps' ]
+console.log(printSplit[4]);
