@@ -453,20 +453,83 @@
 
 // console.log([...new Set(a)]) 
 
-let a = "match() searches for a match in a string"
+// independence work
 
-let k = a.match("sea")
 
-console.log(k)
+// let str = "3a4b5c"
 
-let text = "       Hello World!     sdsdasd   dasd a   "; // output : Hello World!
-let result = text.trim();
-console.log(result.length, text.length)
+// let arr = []
 
-let str = new String("This is string"); 
-console.log("str.charAt(0) is:" + str[0]); 
-console.log("str.charAt(1) is:" + str.charAt(1)); 
-console.log("str.charAt(2) is:" + str.charAt(2)); 
-console.log("str.charAt(3) is:" + str.charAt(3)); 
-console.log("str.charAt(4) is:" + str.charAt(4)); 
-console.log("str.charAt(5) is:" + str.charAt(5));
+// for (let i = 0; i < str.length; i++){
+//     if (i % 2 === 0){
+//         i = +i
+//         arr.push(i)
+//     }
+// }
+
+// for (let i = 0; i < arr.length; i++){
+//     for (let j = 0; j < str.length; j++){
+//         if (j % 2 === 1){
+//             str = str[arr[i]].repeat(arr[i])
+//             break
+//         }
+//     }
+// }
+
+// console.log(str)
+
+// function maxEnd3(nums){
+//     let max = nums[0]
+//     for (let i = 0;i < nums.length; i++){
+//       if (max < nums[i]){
+//         max = nums[i]
+//       }
+//     }
+    
+//     for (let i = 0;i < nums.length; i++){
+//       nums.push()
+//     }
+
+//    return nums
+//   }
+
+
+
+
+// let arr = ['kbcdefg', 'ubcd', 'jb', 'dasvderkqrteb']
+// let k = arr.sort((a, b) => a.length - b.length) 
+// console.log(k)
+
+
+// let a = [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]]
+// let arr = []
+// for (let i = 0; i< a.length; i++){
+//     if (a[i] !== ""){
+//         a[i].sort()
+//         arr.push(a[i])
+//     }
+// }
+// let str = arr.join()
+
+// for (let i = 0; i<str.length; i++){
+//     if (str[i] !== ''){
+//         console.log(str[i])
+//     }
+// }
+
+// console.log(str[12])
+
+
+// function fizzbuzz(n)
+// {
+//   if (n % 3 === 0 && n % 5 === 0){
+//     return "FizzBuzz"
+//   }else if(n % 5 === 0){
+//     return "Buzz"
+//   }else if (n % 3 === 0){
+//     return "Fizz"
+//   }
+// }
+
+
+// console.log(fizzbuzz(5))
